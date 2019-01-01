@@ -1,0 +1,62 @@
+# image: laradock:latest
+# services:
+#   - laradock:dind
+image: jonaskello/laradock-and-compose:1.12.1-1.8.0
+services:
+  - laradock:1.12.1-dind
+
+before_script:
+  - laradock info
+  - laradock-compose version
+  - cp env-example .env
+  - sed -i -- "s/=false/=true/g" .env
+  - cat .env
+  - env | sort
+
+build:5.6:php-fpm:
+  variables:
+    PHP_VERSION: "5.6"
+  script:
+    - laradock-compose build php-fpm
+
+build:7.0:php-fpm:
+  variables:
+    PHP_VERSION: "7.0"
+  script:
+    - laradock-compose build php-fpm
+
+build:7.1:php-fpm:
+  variables:
+    PHP_VERSION: "7.1"
+  script:
+    - laradock-compose build php-fpm
+
+build:7.2:php-fpm:
+  variables:
+    PHP_VERSION: "7.2"
+  script:
+    - laradock-compose build php-fpm
+
+build:5.6:workspace:
+  variables:
+    PHP_VERSION: "5.6"
+  script:
+    - laradock-compose build workspace
+
+build:7.0:workspace:
+  variables:
+    PHP_VERSION: "7.0"
+  script:
+    - laradock-compose build workspace
+
+build:7.1:workspace:
+  variables:
+    PHP_VERSION: "7.1"
+  script:
+    - laradock-compose build workspace
+
+build:7.2:workspace:
+  variables:
+    PHP_VERSION: "7.2"
+  script:
+    - laradock-compose build workspace
