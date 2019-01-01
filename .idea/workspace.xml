@@ -2,6 +2,244 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8a0301d-43f8-4e38-8d4c-9f85ecb4d0b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/laradock/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/.github/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/.github/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/.github/README-zh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/.github/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/.github/home-page-images/laradock-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/.gitlab-ci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/config.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/content/contributing/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/content/documentation/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/content/getting-started/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/content/guides/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/content/help/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/content/introduction/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/content/license/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/content/related-projects/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/static/CNAME" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/archetypes/default.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/layouts/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/layouts/_default/__list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/layouts/_default/single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/layouts/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/layouts/partials/drawer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/layouts/partials/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/layouts/partials/footer_js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/layouts/partials/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/layouts/partials/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/layouts/partials/nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/layouts/partials/nav_link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/layouts/shortcodes/note.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/layouts/shortcodes/warning.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/fonts/icon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/fonts/icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/fonts/icon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/fonts/icon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/KiTTY/Connection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/KiTTY/ConnectionData.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/KiTTY/ConnectionSSH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/KiTTY/ConnectionSSHAuth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/KiTTY/Session.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/KiTTY/Terminal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/KiTTY/TerminalKeyboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/KiTTY/TerminalShell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/KiTTY/Window.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/KiTTY/WindowAppearance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/DebugRemoteOn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/RemoteDebuggingSuccess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/RemoteHost.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/RemoteTestDebuggingSuccess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/RemoteWebDebuggingSuccess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/Settings/BuildDeploymentConnection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/Settings/BuildDeploymentConnectionMappings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/Settings/BuildDeploymentDebugger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/Settings/EditRunConfigurationRemoteExampleTestDebug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/Settings/EditRunConfigurationRemoteWebDebug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/Settings/LangsPHPDebug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/Settings/LangsPHPInterpreters.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/Settings/LangsPHPPHPUnit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/Settings/LangsPHPServers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/Settings/WindowsFirewallAllowedApps.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/Settings/WindowsHyperVManager.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/Settings/hosts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/linux/configuration/debugConfiguration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/linux/configuration/serverConfiguration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/SimpleHostsEditor/AddHost_laravel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/javascripts/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/javascripts/modernizr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/stylesheets/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/stylesheets/highlight/highlight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/stylesheets/palettes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/stylesheets/temporary.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/theme.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/adminer/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/aerospike/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/aerospike/aerospike.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/apache2/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/apache2/sites/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/apache2/sites/default.apache.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/apache2/sites/sample.conf.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/apache2/vhost.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/aws/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/aws/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/beanstalkd-console/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/beanstalkd/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/caddy/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/caddy/caddy/Caddyfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/caddy/caddy/authlist.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/certbot/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/certbot/letsencrypt/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/certbot/letsencrypt/.well-known/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/certbot/run-certbot.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/docker-compose.sync.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/docker-registry/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/docker-sync.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/docker-web-ui/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/elasticsearch/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/env-example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/gitlab/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/grafana/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/haproxy/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/hhvm/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/hhvm/server.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/ide-codiad/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/ide-codiad/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/ide-icecoder/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/ide-theia/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/ide-webide/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/ipython/Dockerfile.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/ipython/Dockerfile.engine" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/ipython/ipcontroller-client.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/ipython/ipcontroller-engine.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jenkins/.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jenkins/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jenkins/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jenkins/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jenkins/Jenkinsfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jenkins/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jenkins/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jenkins/init.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jenkins/install-plugins.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jenkins/jenkins-support" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jenkins/jenkins.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jenkins/plugins.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jenkins/publish.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jenkins/tests/functions.bats" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jenkins/tests/install-plugins.bats" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jenkins/tests/install-plugins/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jenkins/tests/install-plugins/update/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jenkins/tests/plugins/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jenkins/tests/plugins/plugins.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jenkins/tests/runtime.bats" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jenkins/tests/test_helpers.bash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jenkins/tests/upgrade-plugins/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jenkins/update-official-library.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jupyterhub/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jupyterhub/Dockerfile.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jupyterhub/jupyterhub_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jupyterhub/start-notebook.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jupyterhub/start-singleuser.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jupyterhub/start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/jupyterhub/userlist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/kibana/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/laravel-echo-server/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/laravel-echo-server/laravel-echo-server.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/laravel-echo-server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/laravel-horizon/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/laravel-horizon/supervisord.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/laravel-horizon/supervisord.d/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/laravel-horizon/supervisord.d/laravel-horizon.conf.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/maildev/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/mailhog/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/mariadb/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/mariadb/docker-entrypoint-initdb.d/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/mariadb/docker-entrypoint-initdb.d/createdb.sql.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/mariadb/my.cnf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/memcached/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/minio/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/mongo-webui/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/mongo/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/mssql/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/mssql/create_table.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/mssql/entrypoint.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/mssql/setup.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/mysql/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/mysql/docker-entrypoint-initdb.d/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/mysql/docker-entrypoint-initdb.d/createdb.sql.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/mysql/my.cnf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/neo4j/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/nginx/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/nginx/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/nginx/sites/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/nginx/sites/app.conf.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/nginx/sites/default.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/nginx/sites/laravel.conf.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/nginx/sites/symfony.conf.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/nginx/ssl/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/nginx/startup.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/percona/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/percona/docker-entrypoint-initdb.d/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/percona/docker-entrypoint-initdb.d/createdb.sql.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/percona/my.cnf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/pgadmin/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/php-fpm/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/php-fpm/aerospike.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/php-fpm/laravel.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/php-fpm/mysql.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/php-fpm/opcache.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/php-fpm/php5.6.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/php-fpm/php7.0.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/php-fpm/php7.1.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/php-fpm/php7.2.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/php-fpm/xdebug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/php-fpm/xdebug.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/php-fpm/xlaravel.pool.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/php-worker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/php-worker/supervisord.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/php-worker/supervisord.d/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/php-worker/supervisord.d/laravel-worker.conf.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/phpmyadmin/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/portainer/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/postgres-postgis/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/postgres/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/postgres/docker-entrypoint-initdb.d/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/postgres/docker-entrypoint-initdb.d/createdb.sh.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/postgres/docker-entrypoint-initdb.d/init_gitlab_db.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/postgres/docker-entrypoint-initdb.d/init_jupyterhub_db.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/rabbitmq/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/redis/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/rethinkdb/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/selenium/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/solr/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/sync.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/thumbor/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/travis-build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/varnish/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/varnish/default.vcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/varnish/start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/workspace/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/workspace/aerospike.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/workspace/aliases.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/workspace/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/workspace/crontab/laradock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/workspace/insecure_id_rsa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/workspace/insecure_id_rsa.ppk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/workspace/insecure_id_rsa.pub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/workspace/mc/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laradock/workspace/xdebug.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,11 +332,6 @@
               <item name="onlinejobs" type="b2602c69:ProjectViewProjectNode" />
               <item name="onlinejobs" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="onlinejobs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlinejobs" type="462c0819:PsiDirectoryNode" />
-              <item name="laradock" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -135,23 +368,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546340912080</updated>
-      <workItem from="1546340913616" duration="3180000" />
+      <workItem from="1546340913616" duration="3444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3180000" />
+    <option name="totallyTimeSpent" value="3444000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="945" height="1056" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24916944" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24916944" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32987553" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32987553" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32987553" />
@@ -214,10 +447,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker/caddy/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/laradock/caddy/Dockerfile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker/caddy/caddy/Caddyfile">
+    <entry file="file://$PROJECT_DIR$/laradock/caddy/caddy/Caddyfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/migrate.sh">
