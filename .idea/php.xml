@@ -89,6 +89,10 @@
       <path value="$PROJECT_DIR$/job-app/vendor/sebastian/diff" />
       <path value="$PROJECT_DIR$/job-app/vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/job-app/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/job-app/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/job-app/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/job-app/vendor/tymon/jwt-auth" />
+      <path value="$PROJECT_DIR$/job-app/vendor/namshi/jose" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
