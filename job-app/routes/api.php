@@ -11,4 +11,8 @@
 |
 */
 
-Route::post('login', 'API\Auth\LoginController@login');
+Route::post('login', 'API\Auth\AuthController@login');
+Route::group(['middleware' => 'auth.jwt'], function () {
+    Route::get('logout', 'API\Auth\AuthController@logout');
+    Route::get('user', 'API\Auth\AuthController@user');
+});
