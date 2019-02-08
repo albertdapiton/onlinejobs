@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8a0301d-43f8-4e38-8d4c-9f85ecb4d0b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/job-app/app/Services/AuthService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/job-app/resources/lang/en/error.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job-app/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/job-app/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job-app/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/job-app/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-app/app/Http/Controllers/API/Auth/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-app/app/Services/AuthService.php" beforeDir="false" afterPath="$PROJECT_DIR$/job-app/app/Services/AuthService.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,18 +21,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="16" column="52" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/job-app/app/Http/Controllers/API/Auth/LoginController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="34" />
-              <folding>
-                <element signature="e#49#85#0#PHP" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -427,12 +412,12 @@
       <workItem from="1546340913616" duration="3767000" />
       <workItem from="1548815456012" duration="253000" />
       <workItem from="1548815734189" duration="19752000" />
-      <workItem from="1549459157058" duration="8730000" />
+      <workItem from="1549459157058" duration="8852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32502000" />
+    <option name="totallyTimeSpent" value="32624000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -445,6 +430,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1397" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17564575" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
